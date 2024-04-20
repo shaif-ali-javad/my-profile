@@ -52,23 +52,23 @@ function App() {
         <Box sx={{mt: 4}}>
           <Stack direction={'row'} spacing={2}>
         <GitHub  sx={{fontSize:70}} className='name0'/>
-            <Typography variant='h4' textAlign={'left'} sx={{pt: 2}} className='a-5'>
+            <Typography variant='h4' textAlign={'left'} sx={{pt: 2}} className='a-5' onClick={() => window.open('https://github.com/shaif-ali-javad/')}>
             github.com/shaif-ali-javad
             </Typography>
         </Stack>
         <Box sx={{m:10}}>
           <Stack direction={'row'} spacing={2}>
         <Email sx={{fontSize:60}} className='name0'/>
-        <Typography variant='h4' textAlign={'left'} sx={{pt: 1.5, fontSize: 30}} className='a-5'>
+        <Typography variant='h4' textAlign={'left'} sx={{pt: 1.5, fontSize: 30}} className='a-5' onClick={() => window.open('mailto:<shaifalijavad40@gmail.com>')}>
         shaifalijavad40@gmail.com
-            </Typography>
+        </Typography>
         </Stack>
         </Box>
           <Stack direction={'row'} spacing={2}>
         <LinkedIn  sx={{fontSize:50}} className='name0'/>
-        <Typography variant='h4' textAlign={'left'} sx={{pt: 1.5, fontSize: 25}} className='a-5'>
-        linkedin.com/in/shaif-ali-04abb2302
-            </Typography>
+        <Typography variant='h4' textAlign={'left'} sx={{pt: 1.5, fontSize: 25}} className='a-5' onClick={() => window.open('https://www.linkedin.com/in/shaif-ali-javad/')}> 
+        linkedin.com/in/shaif-ali-javad
+        </Typography>
         </Stack>
         </Box>
       </Box>
