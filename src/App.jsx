@@ -20,7 +20,7 @@ function App() {
           Shaif Ali Javad,
         </Typography>
         <Typography variant='body1' className='a-3'>
-          A Passionate <span className='a-4'>{"<Frontend Web Development/>"}</span> with 1 years experience creating user friendly websites.
+          A Passionate <span className='a-4'>{"<Frontend Web Developer/>"}</span> with 1 years experience creating user friendly websites.
         </Typography>
         </Grid2>
         <Grid2 xs={6} sx={{mt:-10}}>
