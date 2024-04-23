@@ -1,8 +1,11 @@
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2'
 import './App.css'
 
-import {Box, Typography} from '@mui/material'
-import {GitHub, Email, LinkedIn} from '@mui/icons-material'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
+import GitHub from '@mui/icons-material/GitHub'
+import Email from '@mui/icons-material/Email'
+import LinkedIn from '@mui/icons-material/LinkedIn'
 import Stack from '@mui/system/Stack';
 
 import img0 from './assets/behance0.svg'
