@@ -1,0 +1,28 @@
+/* .rounded-lg{
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+  }
+
+  @-webkit-keyframes mover {
+0% { transform: translateY(0); }
+0% { transform: translateY(170px); }
+100% { transform: translateY(-850px); }
+}
+
+@keyframes mover {
+0% { transform: translateY(70px); }
+0% { transform: translateY(170px); }
+100% { transform: translateY(-850px); }
+} */
+
+
+.gb{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.gb-img{
+    width:100vw;
+    height: 100vh;  
+}
